@@ -5,10 +5,7 @@ Following [some of this](https://medium.com/@chrislewisdev/react-without-npm-bab
 To compile the src js to usable js:
 
 ```
-cd static
-npm run build-babel
-npm run build-webpack
+npm run build
 ```
 
-The first step uses Babel to convert the JSX to regular JS.
-The second step uses Webpack to deal with dependencies.
+This will use Webpack and Babel to turn the code you wrote into something that can be understood.
