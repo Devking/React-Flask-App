@@ -5,7 +5,6 @@ Following [some of this](https://medium.com/@chrislewisdev/react-without-npm-bab
 To compile the src js to usable js:
 
 ```
-cd static
 npm run build
 ```
 
@@ -16,3 +15,5 @@ To run the Flask server:
 ```
 flask run
 ```
+
+Be sure to go back in the Git history to see the versions of this (a) when Babel and Webpack were used separately and (b) when Babel and Webpack weren't used at all.
