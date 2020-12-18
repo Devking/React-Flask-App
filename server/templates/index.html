@@ -1,6 +1,7 @@
 <html>
 <head>
   <title>React Test</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='Game.css') }}">
 </head>
 <body>
   Hello!
@@ -10,6 +11,6 @@
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-  <script src="{{url_for('static', filename='react-scripts.js')}}" type="text/babel"></script>
+  <script src="{{url_for('static', filename='Game.js')}}" type="text/babel"></script>
 </body>
 </html>
