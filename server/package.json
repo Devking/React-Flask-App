@@ -4,7 +4,6 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build-babel-only": "babel src -d lib",
     "build": "webpack --config webpack.config.js"
   },
   "author": "",
